@@ -19,7 +19,7 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '《通往 AGI 之路》知识库！这里旨在提供一个全面系统的 AI 学习路径，帮助您了解从 AI 常见名词到 AI 应用等各方面知识，更重要的是，希望引发您思考：「我可以用 AI 做什么，帮助自己更强大」', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'http://blog.waytoAGI.com', // 网站地址
+  LINK: process.env.NEXT_PUBLIC_LINK || 'http://blog.waytoagi.com', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客, AI, AGI, Blog, wiki, 知识库, AI知识', // 网站关键词 英文逗号隔开
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '', // 邮箱地址 例如mail@tangly1024.com

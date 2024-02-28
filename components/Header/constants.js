@@ -1,6 +1,6 @@
 export const Title = '通往AGI之路'
 
-export const MainHost = 'https://new.waytoagi.com'
+export const MainHost = 'https://www.waytoagi.com'
 
 export const Navs = [
   {

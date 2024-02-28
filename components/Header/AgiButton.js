@@ -1,11 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
-import { MainHost } from './constants'
 import styles from './AgiButton.module.css'
 
 const AgitButton = () => {
   return (
-    <Link href={`${MainHost}/agi`} className={styles.button} rel="nofollow">
+    <Link href="https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e" className={styles.button} rel="nofollow">
       直达知识库
       <svg
         xmlns="http://www.w3.org/2000/svg"

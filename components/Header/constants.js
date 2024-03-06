@@ -22,10 +22,5 @@ export const Navs = [
   {
     name: 'AI 资讯',
     href: 'https://blog.waytoagi.com/'
-  },
-  {
-    name: 'AI 春晚',
-    href: 'https://blog.waytoagi.com/article/AI-Spring-Festival-Gala',
-    className: 'text-red-600'
   }
 ]

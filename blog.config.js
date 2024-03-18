@@ -19,10 +19,14 @@ const BLOG = {
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '《通往 AGI 之路》知识库！这里旨在提供一个全面系统的 AI 学习路径，帮助您了解从 AI 常见名词到 AI 应用等各方面知识，更重要的是，希望引发您思考：「我可以用 AI 做什么，帮助自己更强大」', // 作者简介
+  BIO:
+    process.env.NEXT_PUBLIC_BIO ||
+    '《通往 AGI 之路》知识库！这里旨在提供一个全面系统的 AI 学习路径，帮助您了解从 AI 常见名词到 AI 应用等各方面知识，更重要的是，希望引发您思考：「我可以用 AI 做什么，帮助自己更强大」', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'http://blog.waytoagi.com', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客, AI, AGI, Blog, wiki, 知识库, AI知识', // 网站关键词 英文逗号隔开
-  
+  KEYWORDS:
+    process.env.NEXT_PUBLIC_KEYWORD ||
+    'Notion, 博客, AI, AGI, Blog, wiki, 知识库, AI知识', // 网站关键词 英文逗号隔开
+
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '', // 邮箱地址 例如mail@tangly1024.com
   CONTACT_WEIBO: process.env.NEXT_PUBLIC_CONTACT_WEIBO || '', // 你的微博个人主页
@@ -355,8 +359,8 @@ const BLOG = {
   ENABLE_CACHE: process.env.ENABLE_CACHE || false, // 开启缓存会将Notion数据缓存在内存中，通常在开发调试中使用，正式部署开启此功能意义不大。
   isProd: process.env.VERCEL_ENV === 'production', // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)  isProd: process.env.VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
   VERSION: process.env.NEXT_PUBLIC_VERSION, // 版本号
-  BLOG_FAVICON: '/favicon.ico'
-
+  BLOG_FAVICON: '/favicon.ico',
+  BUNDLE_ANALYZER: false
 }
 
 module.exports = BLOG

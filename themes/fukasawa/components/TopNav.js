@@ -17,7 +17,7 @@ const TopNav = props => {
     changeShow(!isOpen)
   }
 
-  return (<div id='top-nav' className='z-40 block lg:hidden'>
+  return (<div id='top-nav' className='z-40 block hidden'>
 
     {/* 导航栏 */}
     <div id='sticky-nav' className={'relative w-full top-0 z-20 transform duration-500 bg-white dark:bg-black'}>

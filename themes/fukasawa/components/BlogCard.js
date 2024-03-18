@@ -28,7 +28,7 @@ const BlogCard = ({ index, post, showSummary, siteInfo }) => {
                     <div className="flex-grow mb-3 w-full duration-200 cursor-pointer transform overflow-hidden">
                         <Link href={`${SUB_PATH}/${post.slug}`} passHref legacyBehavior>
                             <LazyImage
-                                src={post?.pageCoverThumbnail + '&image_process=resize,w_506'}
+                                src={post?.pageCoverThumbnail}
                                 alt={post?.title || siteConfig('TITLE')}
                                 className="object-cover w-full h-full hover:scale-125 transform duration-500"
                             />

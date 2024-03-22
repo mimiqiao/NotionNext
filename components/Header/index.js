@@ -54,16 +54,6 @@ const Header = ({ currentNav }) => {
       </div>
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4820812869251361"
            crossorigin="anonymous"></script>
-        <!-- Blog 侧栏 -->
-          <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="ca-pub-4820812869251361"
-           data-ad-slot="8072332992"
-           data-ad-format="auto"
-           data-full-width-responsive="true"></ins>
-          <script>
-           (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
     </header>
   )
 }

@@ -52,7 +52,6 @@ const Header = ({ currentNav }) => {
         </div>
         <MobileMenu />
       </div>
-    
     </header>
   )
 }

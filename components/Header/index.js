@@ -52,8 +52,7 @@ const Header = ({ currentNav }) => {
         </div>
         <MobileMenu />
       </div>
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4820812869251361"
-           crossorigin="anonymous"></script>
+    
     </header>
   )
 }

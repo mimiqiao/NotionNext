@@ -12,15 +12,11 @@ export const Navs = [
     href: MainHost + '/sites'
   },
   {
-    name: 'GPTs 应用',
-    href: MainHost + '/gpts'
-  },
-  {
-    name: ' AI 提示词',
+    name: 'AI 提示词',
     href: MainHost + '/prompts'
   },
   {
-    name: 'AI 资讯',
+    name: '知识库精选',
     href: 'https://blog.waytoagi.com/'
   }
 ]

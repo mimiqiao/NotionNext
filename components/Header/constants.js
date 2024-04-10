@@ -11,13 +11,9 @@ export const Navs = [
     name: 'AI 网站',
     href: MainHost + '/sites'
   },
-  // {
-  //   name: 'GPTs 应用',
-  //   href: MainHost + '/gpts-wiki'
-  // },
   {
-    name: ' AI 提示词',
-    href: MainHost + '/prompts-wiki'
+    name: 'AI 提示词',
+    href: MainHost + '/prompts'
   },
   {
     name: '知识库精选',

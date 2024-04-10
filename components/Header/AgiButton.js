@@ -10,7 +10,7 @@ const AgitButton = () => {
       rel="nofollow"
       target="_blank"
     >
-      直达知识库
+      直达飞书知识库
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"

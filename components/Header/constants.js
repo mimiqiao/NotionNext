@@ -16,6 +16,10 @@ export const Navs = [
     href: MainHost + '/prompts'
   },
   {
+    name: '与知识库对话',
+    href: MainHost + '/question'
+  },
+  {
     name: '知识库精选',
     href: 'https://blog.waytoagi.com/'
   }

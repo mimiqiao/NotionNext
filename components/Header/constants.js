@@ -16,6 +16,10 @@ export const Navs = [
     href: MainHost + '/sites'
   },
   {
+    name: 'AI 智能体',
+    href: MainHost + '/gpts'
+  },
+  {
     name: 'AI 提示词',
     href: MainHost + '/prompts'
   },

@@ -17,7 +17,7 @@ export const Navs = [
   },
   {
     name: 'AI 智能体',
-    href: MainHost + '/gpts'
+    href: MainHost + '/agents'
   },
   {
     name: 'AI 提示词',

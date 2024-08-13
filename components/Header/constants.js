@@ -8,10 +8,6 @@ export const Navs = [
     href: MainHost
   },
   {
-    name: 'AI 图像工具',
-    href: 'https://image.waytoagi.com/'
-  },
-  {
     name: 'AI 网站',
     href: MainHost + '/sites'
   },

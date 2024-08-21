@@ -3,12 +3,11 @@
 import React from 'react'
 import { Dropdown } from 'flowbite-react'
 import { Navs } from './constants'
-import AgiButton from './AgiButton'
 
 const MobileMenu = () => {
   return (
     <div className="md:hidden flex gap-4">
-      <AgiButton />
+      {/* <AgiButton /> */}
       <Dropdown
         label=""
         dismissOnClick={false}

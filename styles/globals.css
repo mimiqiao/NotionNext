@@ -157,7 +157,7 @@ nav {
 
 /* twikoo 评论区超链接样式 */
 .tk-main a {
-   @apply text-blue-700
+   @apply text-primary-700
 }
 
 /* twikoo 内置的 element-ui 加载样式 */

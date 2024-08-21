@@ -14,6 +14,19 @@ module.exports = {
     fontFamily: fontFamilies,
     extend: {
       colors: {
+        // 'primary-color': '#674DFF',
+        primary: {
+          50: '#f2f0ff',
+          100: '#e0dbff',
+          200: '#c2baff',
+          300: '#a399ff',
+          400: '#8578ff',
+          500: '#674dff', // 主色
+          600: '#5a44e6',
+          700: '#4c3bcc',
+          800: '#3e32b3',
+          900: '#302999'
+        },
         day: {
           DEFAULT: BLOG.BACKGROUND_LIGHT || '#ffffff'
         },

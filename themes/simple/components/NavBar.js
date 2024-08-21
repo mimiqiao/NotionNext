@@ -41,7 +41,7 @@ export default function NavBar (props) {
                     {!showSearchInput && (<MenuList {...props}/>)}
                 </div>
 
-                <div className="absolute right-12 h-full text-center px-2 flex items-center text-blue-400  cursor-pointer">
+                <div className="absolute right-12 h-full text-center px-2 flex items-center text-primary-400  cursor-pointer">
                     {/* <!-- extra links --> */}
                     <i className={showSearchInput ? 'fa-regular fa-circle-xmark' : 'fa-solid fa-magnifying-glass' + ' align-middle'} onClick={toggleShowSearchInput}></i>
                 </div>

@@ -1,12 +1,20 @@
 /* eslint-disable @next/next/no-img-element */
-import { Navs, MainHost } from './constants'
+import { MainHost, Navs } from './constants'
 import React from 'react'
 import MobileMenu from './MobileMenu'
-import AgiButton from './AgiButton'
 
 const Header = ({ currentNav }) => {
   return (
     <header>
+      <a
+        className="h-12 flex items-center justify-center font-semibold"
+        style={{
+          background: 'linear-gradient(to right, rgb(198, 107, 255) 0%, rgb(245, 236, 254) 40%, rgb(255, 235, 59) 100%)'
+        }}
+        href="https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e"
+        target="_blank"
+        rel="noreferrer"
+      >直达「 通往AGI之路 」飞书知识库 →</a>
       <div className="bg-white mx-auto py-2.5 px-3 flex justify-between items-center">
         <div className="flex items-center">
           <a href={MainHost}>
@@ -47,9 +55,9 @@ const Header = ({ currentNav }) => {
             ))}
           </ul>
         </div>
-        <div className="hidden md:block">
-          <AgiButton />
-        </div>
+        {/* <div className="hidden md:block"> */}
+        {/*   <AgiButton /> */}
+        {/* </div> */}
         <MobileMenu />
       </div>
     </header>

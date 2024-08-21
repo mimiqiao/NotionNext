@@ -2,6 +2,7 @@
 import { MainHost, Navs } from './constants'
 import React from 'react'
 import MobileMenu from './MobileMenu'
+import Logo from '@/components/Logo'
 
 const Header = ({ currentNav }) => {
   return (
@@ -17,12 +18,13 @@ const Header = ({ currentNav }) => {
       >直达「 通往AGI之路 」飞书知识库 →</a>
       <div className="bg-white mx-auto py-2.5 px-3 flex justify-between items-center">
         <div className="flex items-center">
-          <a href={MainHost}>
-            <img
-              src="/logo-header.png"
-              className="mr-3 h-8"
-              alt="Flowbite React Logo"
-            />
+          <a href={MainHost} className="mr-3">
+            {/* <img */}
+            {/*   src="/logo-header.png" */}
+            {/*   className="mr-3 h-8" */}
+            {/*   alt="Flowbite React Logo" */}
+            {/* /> */}
+            <Logo class="h-14" />
           </a>
 
           <ul className="hidden md:flex gap-8 items-center ml-20">

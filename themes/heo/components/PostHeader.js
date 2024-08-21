@@ -41,7 +41,7 @@ export default function PostHeader({ post, siteInfo }) {
                     <div className='flex justify-center md:justify-start items-center'>
                         {post.category && <>
                             <Link href={`/category/${post.category}`} className='mr-4' passHref legacyBehavior>
-                                <div className="cursor-pointer font-sm font-bold px-3 py-1 rounded-lg bg-blue-500 hover:bg-white text-white hover:text-blue-500 duration-200 ">
+                                <div className="cursor-pointer font-sm font-bold px-3 py-1 rounded-lg bg-blue-500 hover:bg-white text-white hover:text-primary-500 duration-200 ">
                                     {post.category}
                                 </div>
                             </Link>

@@ -32,9 +32,9 @@ const Header = ({ currentNav }) => {
               <li key={nav.href}>
                 <a
                   href={nav.href}
-                  className={`flex items-center gap-1 text-base md:hover:text-blue-600 ${
+                  className={`flex items-center gap-1 text-base md:hover:text-primary-600 ${
                     nav.className || ''
-                  } ${currentNav === nav.href ? 'md:text-blue-600' : ''}`}
+                  } ${currentNav === nav.href ? 'md:text-primary-500' : ''}`}
                   // target={nav.href.startsWith("http") ? "_blank" : "_self"}
                 >
                   {nav.name}

@@ -28,7 +28,7 @@ const BlogPostCard = ({ post, showSummary }) => {
             data-aos-once="true"
             data-aos-anchor-placement="top-bottom"
             className={`cursor-pointer text-3xl ${showPreview ? 'text-center' : ''
-              } leading-tight text-gray-700 dark:text-gray-100 hover:text-blue-500 dark:hover:text-blue-400`}>
+              } leading-tight text-gray-700 dark:text-gray-100 hover:text-primary-500 dark:hover:text-primary-400`}>
 
             <NotionIcon icon={post.pageIcon} /> <span className='menu-link'>{post.title}</span>
 
@@ -47,7 +47,7 @@ const BlogPostCard = ({ post, showSummary }) => {
                   <Link
                     href={`/category/${post.category}`}
                     passHref
-                    className="hover:text-blue-500 dark:hover:text-blue-400 cursor-pointer font-light text-sm transform">
+                    className="hover:text-primary-500 dark:hover:text-primary-400 cursor-pointer font-light text-sm transform">
 
                     <i className="mr-1 fas fa-folder" />
                     <span className='menu-link'>{post.category}</span>
@@ -59,13 +59,13 @@ const BlogPostCard = ({ post, showSummary }) => {
                 <Link
                     href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM')}`}
                     passHref
-                    className="hover:text-blue-500 dark:hover:text-blue-400 font-light cursor-pointer text-sm leading-4 mr-3">
+                    className="hover:text-primary-500 dark:hover:text-primary-400 font-light cursor-pointer text-sm leading-4 mr-3">
                     <span className='menu-link'>{post.date?.start_date}</span>
                 </Link>
             </div>
-            <TwikooCommentCount post={post} className='hover:text-blue-500 dark:hover:text-blue-400 hover:underline text-sm'/>
+            <TwikooCommentCount post={post} className='hover:text-primary-500 dark:hover:text-primary-400 hover:underline text-sm'/>
 
-            <div className="hover:text-blue-500 dark:hover:text-blue-400  md:flex-nowrap flex-wrap md:justify-start inline-block">
+            <div className="hover:text-primary-500 dark:hover:text-primary-400  md:flex-nowrap flex-wrap md:justify-start inline-block">
                 {post.tagItems?.map(tag => (
                   <TagItemMini key={tag.name} tag={tag} />
                 ))}

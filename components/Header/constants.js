@@ -8,6 +8,10 @@ export const Navs = [
     href: MainHost
   },
   {
+    name: 'AI 活动',
+    href: MainHost + '/events'
+  },
+  {
     name: 'AI 网站',
     href: MainHost + '/sites'
   },

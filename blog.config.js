@@ -312,7 +312,7 @@ const BLOG = {
 
   // 谷歌广告
   ADSENSE_GOOGLE_ID:
-    process.env.NEXT_PUBLIC_ADSENSE_GOOGLE_ID || '', // 谷歌广告ID e.g ca-pub-xxxxxxxxxxxxxxxx
+    process.env.NEXT_PUBLIC_ADSENSE_GOOGLE_ID || 'ca-pub-4820812869251361', // 谷歌广告ID e.g ca-pub-xxxxxxxxxxxxxxxx
 
   // 自定义配置notion数据库字段名
   NOTION_PROPERTY_NAME: {
@@ -340,7 +340,7 @@ const BLOG = {
   },
 
   // RSS
-  ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || false, // 是否开启RSS订阅功能
+  ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
 
   // 作废配置
   AVATAR: process.env.NEXT_PUBLIC_AVATAR || '/avatar.svg', // 作者头像，被notion中的ICON覆盖。若无ICON则取public目录下的avatar.png
